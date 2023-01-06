@@ -1,0 +1,157 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.content {
+    height: 1000px;
+    box-shadow: 10px 10px 10px 10px rgb(rgb136, 110, 110);
+    background: -webkit-linear-gradient(top,#fc85ae,#ffe9e3,  #c4c1e0, #7c73e6, #f9bcdd, #fdadc7, #ea4c88);
+}
+
+.div1 {
+    width: 150px;
+    height: 150px;
+   
+
+    
+
+    animation-name: change ;
+    animation-duration: 2s ;
+    position: absolute;
+    
+
+    animation-timing-function: linear ;
+    animation-fill-mode: both ;
+}
+
+@keyframes change {
+      0% {background-image: url(../Images/about.jpg);background-size: cover;  left:0px;  }
+     
+     
+     100% {background-image: url(../Images/product-5.jpg);background-size: cover;  left:1100px; border-radius: 30px 60px; }
+}
+
+/* .div1:hover {
+    animation-play-state: paused ;
+} */
+
+
+.div2 {
+    width: 150px;
+    height: 150px;
+    top: 170px;
+
+    animation-name: change2 ;
+    animation-duration: 2s ;
+    position: absolute;
+    /* animation-direction: reverse ; */
+    animation-fill-mode: both ;
+    animation-delay: 2s  ;
+}
+
+@keyframes change2 {
+      0% {background-image: url(../Images/product-1.jpg);background-size: cover;  right:0px;  }
+     
+
+     100% {background-image: url(../Images/product-2.jpg);
+        background-size: cover;
+        right:1100px;
+        border-radius: 30px 60px;}
+}
+
+
+.div3 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../Images/trainer-3.jpg);
+    background-size: cover;
+    top: 340px;
+
+    animation-name: change3 ;
+    animation-duration: 2s ;
+    position: absolute;
+    animation-delay: 4s  ;
+    animation-fill-mode: both ;
+}
+
+@keyframes change3 {
+      0% {background-image: url(../Images/service-3.jpg);
+        background-size: cover;
+          left:0px;  }
+     
+
+     100% {background-image: url(../Images/service-2.jpg);
+        background-size: cover;
+          left:1114px;   border-radius: 30px 60px; }
+}
+
+.div4 {
+    width: 150px;
+    height: 150px;
+    top: 510px;
+    animation-name: change4 ;
+    animation-duration: 2s ;
+    position: absolute;
+    animation-delay: 6s  ;
+
+    animation-timing-function: linear ;
+    animation-fill-mode: both ;
+}
+
+@keyframes change4 {
+      0% {background-image: url(../Images/portfolio-2.jpg);
+        background-size: cover;  right:0px;  }
+     
+
+     100% {background-image: url(../Images/portfolio-4.jpg);
+        background-size: cover;  right:1114px;   border-radius: 30px 60px; }
+}
+
+
+.div5 {
+    width: 150px;
+    height: 150px;
+    top: 680px;
+    animation-name: change5 ;
+    animation-duration: 2s ;
+    position: absolute;
+    animation-delay: 8s  ;
+
+    animation-timing-function: linear ;
+    animation-fill-mode: both ;
+}
+
+@keyframes change5 {
+      0% {background-image: url(../Images/portfolio-2.jpg);
+        background-size: cover;   left:0px;  }
+     
+
+     100% {background-image: url(../Images/portfolio-5.jpg);
+        background-size: cover;  left:1114px; border-radius: 30px 60px;  }
+}
+
+
+.div6 {
+    width: 150px;
+    height: 150px;
+    top: 850px;
+    animation-name: change6 ;
+    animation-duration: 2s ;
+    position: absolute;
+    animation-delay: 10s  ;
+
+    animation-timing-function: linear ;
+    animation-fill-mode: both ;
+}
+
+@keyframes change6 {
+      0% {background-image: url(../Images/portfolio-6.jpg);
+        background-size: cover;  right:0px;  }
+     
+
+     100% {background-image: url(../Images/service-4.jpg);
+        background-size: cover;  right:1114px; border-radius: 30px 60px;  }
+}
